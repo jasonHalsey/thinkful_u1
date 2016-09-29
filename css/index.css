@@ -11,6 +11,7 @@ header.navigation {
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
   min-height: 60px;
+  padding-left: 2.0em;
   width: 100%;
   z-index: 999;
 }
@@ -313,7 +314,7 @@ body {
 }
 
 .masthead {
-  padding: 6em 0;
+  padding: 4em 0;
   text-align: center;
 }
 
@@ -329,12 +330,19 @@ body {
 .info h1 {
   text-align: center;
 }
+.info h3 {
+  font-family: "Oswald", sans-serif;
+}
 
 .info-container {
   text-align: center;
+  padding-bottom: 4.0em;
 }
 .info-container h2 {
   font-family: "Oswald", sans-serif;
+  background-color: #b3c2bf;
+  padding: 0.5em 0;
+  color: #fff;
 }
 .info-container p {
   font-family: "Dosis", sans-serif;
