@@ -1,6 +1,20 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'partials/nav';
+
+$header-font:'Oswald', sans-serif;
+$body-font: 'Dosis', sans-serif;
+$dark-gray: #333 !default;
+$navigation-color: transparentize(white, 0.3);
+
+body {
+  margin:0; 
+}
+
 .masthead-intro,
 .masthead-heading {
   text-align: center;
+  font-family: $header-font;
 }
 
 .masthead {
@@ -10,6 +24,7 @@
 
 .masthead-heading {
   margin-bottom: 0.1em;
+  font-size: 4.0em;
 }
 
 .masthead-intro {
@@ -22,6 +37,12 @@
 
 .info-container {
   text-align:center;
+  h2{
+    font-family: $header-font;
+  }
+  p{
+    font-family: $body-font;
+  }
 }
 
 .info {
@@ -30,4 +51,12 @@
   width: 30%;
   padding-left: 30px;
   box-sizing:border-box;
+}
+
+footer{
+  text-align: center;
+  color: $navigation-color;
+  font-family: $header-font;
+  padding:1.25em 0;
+  background-color: $dark-gray;
 }
